@@ -1,0 +1,30 @@
+".placesRow": {
+	backgroundColor: '#fff',
+	height: 'auto',
+	textAlign: 'left',
+	layout:'vertical'
+}
+".placeName": {
+	font:{fontSize:16,fontWeight:'bold'},
+	width: 'auto',
+	height: 'auto',
+	height: 20,
+	textAlign: 'left',
+	top: 2,
+},
+".placeStreet": {
+	width: 'auto',
+	height: 'auto',
+	height: 16,
+	textAlign: 'right',
+	bottom: 6
+},
+"#rightButton": {
+	backgroundImage : 'none',
+	image : '/ds.slideMenu/round_plus.png',
+	right : "0",
+	top : "0",
+	width : "0",
+	height : "0",
+	style : "none"
+}

@@ -1,0 +1,116 @@
+"#profileView": {
+	top:0,
+	layout:'vertical',
+	backgroundColor: '#72777b',
+	height:95
+},
+".separator": {
+	width: "100%",
+    height: 1,
+    borderWidth: 1,
+    borderColor:"#cdcfce"
+},
+".borderLeft": {
+	width: 1,
+	top: 0,
+    bottom: 0,
+    left: 0,
+    backgroundColor:"#cdcfce",
+},
+".profileRow": {
+	height:35,
+	borderColor:"#fff",
+	backgroundColor: '#FFF'
+},
+".detailsView": {
+	top:0,
+	layout:'horizontal',
+	backgroundColor: '#FFF',
+	height:60,
+},
+".profileSmallDetailsBox": {
+	paddingLeft:10,
+	backgroundColor: '#FFF',
+	width:85
+},
+".profileLargeDetailsBox": {
+	paddingLeft:10,
+	backgroundColor: '#FFF',
+	width:Ti.UI.Fill
+},
+"#cameraWrapper": {
+	height:55,
+	layout:'vertical'
+},
+"#photosWrapper": {
+	height:290,
+	layout:'vertical'
+},
+".profileButton": {
+	borderRadius:0,
+	layout:'vertical',
+	height:48,
+	left:0,
+	top:110
+},
+"#profileFiles": {
+	borderRadius:0,
+	layout:'vertical',
+	height:48,
+	right:0,
+	top:110
+},
+"#profileImage": {
+	left:10,
+	top:5,
+	height:25,
+	width:25
+},
+"#profileDetails": {
+	height:'auto',
+	layout:'vertical',
+	left:30,
+	top:5,
+	right:10
+},
+"#userName": {
+	width: Ti.UI.FILL,
+	left:20,
+	font:{fontSize:15,fontWeight:'bold'},
+	color:"#444",
+	textAlign: 'left'
+},
+".profileSmallLabel": {
+
+	font:{fontSize:10},
+	color:"#aaa",
+	textAlign: 'center'
+},
+".smallBox": {
+	width: 55,
+	height: Ti.UI.FILL,
+	left:10,
+	layout: "vertical"
+},
+".profileRightSmallLabel": {
+	width: Ti.UI.FILL,
+	right:30,
+	font:{fontSize:11},
+	color:"#aaa",
+	textAlign: 'right'
+},
+".profileBoldLabel": {
+	font:{fontSize:15,fontWeight:'bold'},
+	color:"#000",
+	textAlign: 'center'
+},
+".profileDescriptionLabel": {
+	font:{fontSize:9},
+	color:"#000",
+	textAlign: 'left'
+}
+".profileWebsiteLabel": {
+	font:{fontSize:10,fontWeight:'bold'},
+	color:"#1155CC",
+	textAlign: 'left'
+}

@@ -1,0 +1,33 @@
+<Alloy>
+<View id="profileView" borderColor="#fff">
+	<View class="profileRow">
+		<View id="profileDetails">
+			<Label id="userName" height="auto"></Label>
+			
+		</View>
+		<ImageView id="profileImage"></ImageView>
+		<Label top="35" class="profileRightSmallLabel" id="editText" top="10" right="30" width="75" height="auto" text="Edit Profile"></Label>
+		<ImageView top="5" height="25" width="20" right="0" id="editProfile" image="images/right_arrow.png"></ImageView>
+	</View>
+	<View top="0" class="separator" />
+	<View class="detailsView">
+		<View class="profileSmallDetailsBox">
+			<View layout="vertical" top="10">
+				<Label class="profileBoldLabel" id="hairScore" height="auto"></Label>
+			</View>
+			<View layout="vertical" top="35">
+				<Label class="profileSmallLabel" text="Review Score" height="auto"></Label>
+			</View>
+		</View>
+		<View class="borderLeft"></View>
+		<View class="profileLargeDetailsBox">
+			<View layout="vertical" top="0">
+				<Label class="profileDescriptionLabel" text="Yr cred irony, cliche fixie you probably haven't heard of them Thundercats Marfa dreamcatcher. Actually Pitchfork typewriter, butcher sartorial Tonx wolf distillery pickled aesthetic." height="auto"></Label>
+			</View>
+			<View layout="vertical" top="40">
+				<Label class="profileWebsiteLabel" text="mygreatsite.com" height="auto"></Label>
+			</View>
+		</View>
+	</View>
+</View>
+</Alloy>

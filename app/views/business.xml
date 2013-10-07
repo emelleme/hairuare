@@ -1,0 +1,22 @@
+<Alloy>
+	<View id="business" dataCollection="activeBusiness">
+		<View id="profileView" borderColor="#fff">
+			<View class="profileRow">
+				<View id="profileDetails">
+					<Label id="userName" text="{name}" height="auto"></Label>
+					<Label class="profileSmallLabel" id="Street" text="{details}" top="5" height="auto"></Label>
+					<!-- <Label top="40" class="profileSmallLabel" id="Phone" text="" top="10" height="auto"></Label> -->
+				</View>
+				<ImageView id="profileImage" image="{picUrl}"></ImageView>
+			</View>
+		</View>
+		<View id="actionsView" class="actionWrapper">
+			<View class="actionRow">
+			<ImageView class="" id="profileLocation" image="images/profileCamera.png" onClick="cameraAction"></ImageView>
+			<ImageView id="profileLike" class="profileLike" image="images/profileFavorites.png" onClick="favAction"></ImageView>
+			<ImageView id="profileCall" image="images/profilePhone.png" onClick="phoneAction"></ImageView>
+			</View>
+		</View>
+		<!-- <View class="separator" layout="vertical" top="170" /> -->
+	</View>
+</Alloy>

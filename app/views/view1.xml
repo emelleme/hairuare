@@ -1,0 +1,16 @@
+<Alloy>
+	
+	<View id="view1">
+		<!-- <View class="cameraWrapper">
+		<ImageView class="profileButton" id="profileCamera" image="images/profileCamera.png" onClick="cameraAction"></ImageView>
+		<ImageView id="profileFiles" image="images/profileFavorites.png" onClick="favAction"></ImageView>
+		</View>
+		<View class="separator" layout="vertical" top="170" /> -->
+
+		<TableView id="favoritesView" top="93" height="35" scrollable="false"/>
+		<View top="127">
+		<Require type="widget" src="tiflexigrid" id="fg" top="127"/>
+		</View>
+	</View>
+	
+</Alloy>

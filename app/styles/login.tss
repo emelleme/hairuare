@@ -1,0 +1,32 @@
+".container": {
+	backgroundColor:"white"
+},
+"#username": {
+	color:'#336699',
+    top:10,
+    left:10,
+    width:300,
+    height:40,
+    hintText:'Username',
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"#password": {
+	color:'#336699',
+    top:60,
+    left:10,
+    width:300,
+    height:40,
+    hintText:'Password',
+    passwordMask:true,
+    borderStyle:Titanium.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"#login": {
+	top:130,
+    width:90,
+    height:35,
+    borderRadius:1,
+    font:{fontWeight:'bold',fontSize:14}
+},
+"#homeView": {
+	backgroundColor: "white"
+}

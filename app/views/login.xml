@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="loginScreen" class="container" title="Login Window" tabBarHidden="false">
+		<!-- <TextField id="username"></TextField>
+		<TextField id="password"></TextField> -->
+		<ImageView width="Ti.UI.FILL" layout="vertical" top="20"  id="logo" image="images/logo.jpg"></ImageView>
+		<Label id="testLabel">HairUAre</Label>
+		<LoginButton id="fbButton" ns="Alloy.Globals.Facebook"/>
+	</Window>
+</Alloy>

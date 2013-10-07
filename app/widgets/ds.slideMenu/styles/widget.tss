@@ -1,0 +1,113 @@
+// the following are supported for iphone
+// Titanium.UI.iPhone.SystemIcon.BOOKMARKS
+// Titanium.UI.iPhone.SystemIcon.CONTACTS
+// Titanium.UI.iPhone.SystemIcon.DOWNLOADS
+// Titanium.UI.iPhone.SystemIcon.FAVORITES
+// Titanium.UI.iPhone.SystemIcon.HISTORY
+// Titanium.UI.iPhone.SystemIcon.FEATURED
+// Titanium.UI.iPhone.SystemIcon.MORE
+// Titanium.UI.iPhone.SystemIcon.MOST_RECENT
+// Titanium.UI.iPhone.SystemIcon.MOST_VIEWED
+// Titanium.UI.iPhone.SystemIcon.RECENTS
+// Titanium.UI.iPhone.SystemIcon.SEARCH
+// Titanium.UI.iPhone.SystemIcon.TOP_RATED
+//
+"#leftMenu": {
+	top: "0dp",
+	left: "0dp",
+	width: "250dp",
+	zIndex: "2",
+	backgroundColor : "#FFF"
+},
+"#rightMenu": {
+	top: "0dp",
+	right: "0dp",
+	width: "250dp",
+	zIndex: "1",
+	backgroundColor : "#FFF"
+},
+"#navview": {
+	top: "0dp",
+	left: "0dp",
+	width : Ti.Platform.displayCaps.platformWidth,
+	height : "44",
+	 backgroundGradient : {
+    type : "linear",
+    startPoint : {
+      x : "0%",
+      y : "0%"
+    },
+    endPoint : {
+      x : "0%",
+      y : "100%"
+    },
+    colors : [{
+      color : "#3c444d",
+      offset : "0.0"
+    },
+    {
+      color : "#72777b",
+      offset : "1.0"
+    }]
+  }
+},
+"#movableview": {
+	left: "0",
+	zIndex: "3",
+	width : Ti.Platform.displayCaps.platformWidth
+},
+"#contentview": {
+	left : "0dp",
+	width : Ti.Platform.displayCaps.platformWidth,
+	height : Ti.UI.Fill,
+	top : "44",
+	backgroundColor : 'white'
+},
+"#shadowview": {
+	shadowColor:"black",
+    shadowOffset:{x:"0",y:"0"},
+    shadowRadius:"2.5"
+},
+"#leftButton": {
+	backgroundImage : 'none',
+	image : "/ds.slideMenu/ButtonMenu.png",
+	left : "0",
+	top : "0",
+	width : "60",
+	height : "44",
+	style : "none"
+},
+"#calendarButton": {
+	backgroundImage : 'none',
+	image : "/ds.slideMenu/CalendarMenu.png",
+	left : "100",
+	top : "0",
+	width : "60",
+	height : "44",
+	style : "none"
+},
+"#notificationButton": {
+	backgroundImage : 'none',
+	image : "/ds.slideMenu/NotificationMenu.png",
+	left : "150",
+	top : "5",
+	width : "60",
+	height : "34",
+	style : "none"
+},
+".rightButton": {
+	backgroundImage : 'none',
+	right : "0",
+	top : "0",
+	width : "60",
+	height : "44",
+	style : "none"
+},
+"#rightButton": {
+	backgroundImage : 'none',
+	image : '/ds.slideMenu/round_plus.png'
+},
+"#searchButton": {
+	backgroundImage : 'none',
+	image : '/ds.slideMenu/ic_search.png'
+}

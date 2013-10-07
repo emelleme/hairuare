@@ -1,0 +1,10 @@
+<Alloy>
+  <TableViewRow id="singleRow">
+  	<View class="vgroup">
+      <Label id="title"/>
+      <!-- <Label id="customLabel"/> -->
+    </View>
+    <ImageView id="rightBtn" image="images/right_arrow_white.png"/>
+    
+  </TableViewRow>
+</Alloy>

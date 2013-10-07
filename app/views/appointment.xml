@@ -1,0 +1,16 @@
+<Alloy>
+	<View id="appointmentView" class="container" rightNavButton="rightBtn">
+		<TableView id="table">
+            <TableViewSection id="sectionFavoritePlaces" headerTitle="Places">
+                <TableViewRow title="No Favorites"/>
+            </TableViewSection>
+            <TableViewSection id="sectionFavoriteStylists" headerTitle="Stylists">
+                <TableViewRow title="No Favorites"/>
+            </TableViewSection>
+            <TableViewSection id="sectionFavoriteHairStyle" headerTitle="Hair Styles">
+                <TableViewRow title="No Favorites"/>
+            </TableViewSection>
+        </TableView>
+        <Button id="rightBtn" title="button" />
+	</View>
+</Alloy>

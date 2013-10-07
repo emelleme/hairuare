@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="win" rightNavButton="rightBtn">
+		<Require type="widget" src="ds.slideMenu" id="ds"/>
+		
+	</Window>
+	
+</Alloy>

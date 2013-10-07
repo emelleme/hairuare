@@ -1,0 +1,13 @@
+<Alloy>
+	<View id="view3" class="container">
+		
+		<TableView id="placesView" />
+		 <!-- <TableViewSection id="sectionNearby" headerTitle="Nearby Places">
+		  <TableViewRow class="placesRow" hasChild="true">
+			<Label class="placeName" text="{name}"></Label>
+			<Label class="placeStreet" text="{street}"></Label>
+		  </TableViewRow>
+		  </TableViewSection>
+		</TableView> -->
+	</View>
+</Alloy>

@@ -1,0 +1,86 @@
+"#profileView": {
+	top:101,
+	layout:'vertical'
+},
+".separator": {
+	width: "100%",
+    height: 1,
+    borderWidth: 1,
+    borderColor: "#CCC"
+},
+".profileRow": {
+	height:110,
+	borderColor:"#fff"
+},
+".actionRow": {
+	height:50,
+	borderColor:"#fff"
+},
+".profileRow2": {
+	height:60
+},
+".actionWrapper": {
+	top:185,
+	width: Ti.UI.FILL,
+	layout:'vertical'
+},
+"#photosWrapper": {
+	height:290,
+	layout:'vertical'
+},
+".profileButton": {
+	borderRadius:0,
+	layout:'vertical',
+	height:38,
+	left:0,
+	top:110
+},
+".profileLike": {
+	borderRadius:0,
+	layout:'vertical',
+	height:38,
+	left:85,
+},
+"#profileCall": {
+	borderRadius:0,
+	layout:'vertical',
+	height:38,
+	left:170,
+},
+"#profileImage": {
+	left:10,
+	top:5,
+	height:50,
+	width:50
+},
+'#profileLocation': {
+	left:0,
+	height:38
+}
+"#profileDetails": {
+	height:'auto',
+	layout:'vertical',
+	left:25,
+	top:0,
+	bottom:10,
+	right:10
+},
+"#userName": {
+	width: Ti.UI.FILL,
+	left:60,
+	font:{fontSize:15,fontWeight:'bold'},
+	color:"#444",
+	textAlign: 'left'
+},
+".profileSmallLabel": {
+	width: Ti.UI.FILL,
+	left:60,
+	font:{fontSize:11},
+	color:"#aaa",
+	textAlign: 'left'
+},
+"#map": {
+	layout:'vertical',
+	left:0,
+	height:350
+}
